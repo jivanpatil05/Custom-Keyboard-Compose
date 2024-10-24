@@ -71,6 +71,16 @@ class MainActivity : ComponentActivity() {
                                     }
                                 },
                                 onItemSelected = { item -> selectedItem = item })
+
+                            /// CustomKeyBoard only Numbers
+
+                            /*CustomKeyBoard(onDeleteIconClick = {
+                                weight = weight.dropLast(1)
+                            }, onclick = {
+                                weight = weight.plus(it)
+                            }, onLongClick = {
+                                weight = ""
+                            })*/
                         }
                     }
                 }
