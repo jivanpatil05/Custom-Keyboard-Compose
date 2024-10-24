@@ -40,5 +40,7 @@ CustomKeyBoard(
     onClickSpace = { handleSpace() },
     selectedUnit = "g",
     onClickRowItem = { unitSelected = it }
-)![Screenshot_20241024_125248](https://github.com/user-attachments/assets/da08b376-952a-4621-85c3-5c175ba869d2)
+)
+
+![Screenshot_20241024_125248](https://github.com/user-attachments/assets/da08b376-952a-4621-85c3-5c175ba869d2)
 
