@@ -69,9 +69,8 @@ class MainActivity : ComponentActivity() {
                                     if (isFieldFocused == false) {
                                         enable = true
                                     }
-                                }, onItemSelected = { item ->
-                                    selectedItem = item
-                                })
+                                },
+                                onItemSelected = { item -> selectedItem = item })
                         }
                     }
                 }
