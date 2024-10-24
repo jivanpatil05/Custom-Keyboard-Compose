@@ -2,6 +2,9 @@
 
 This project demonstrates a fully customizable numeric input keyboard using Jetpack Compose. The keyboard is designed for use in scenarios where you need numeric input along with unit selection, such as weight or volume entry. It provides a flexible UI with user-friendly interactions like tap, long-press, and swipe gestures for number input and deletion.
 
+![Screenshot_20241024_125248](https://github.com/user-attachments/assets/da08b376-952a-4621-85c3-5c175ba869d2)
+
+
 ## Features
 
 - **Custom Numeric Keyboard:**
@@ -41,6 +44,4 @@ CustomKeyBoard(
     selectedUnit = "g",
     onClickRowItem = { unitSelected = it }
 )
-
-![Screenshot_20241024_125248](https://github.com/user-attachments/assets/da08b376-952a-4621-85c3-5c175ba869d2)
 
